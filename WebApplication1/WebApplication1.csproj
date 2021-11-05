@@ -121,20 +121,45 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PortfolioController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ContactAction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\styles.css" />
+    <Content Include="Content\favicon.ico" />
+    <Content Include="Content\img\about\1.jpg" />
+    <Content Include="Content\img\about\2.jpg" />
+    <Content Include="Content\img\about\3.jpg" />
+    <Content Include="Content\img\about\4.jpg" />
+    <Content Include="Content\img\Background %284%29.jpg" />
+    <Content Include="Content\img\close-icon.svg" />
+    <Content Include="Content\img\header-bg.jpg" />
+    <Content Include="Content\img\logos\facebook.svg" />
+    <Content Include="Content\img\logos\google.svg" />
+    <Content Include="Content\img\logos\ibm.svg" />
+    <Content Include="Content\img\logos\microsoft.svg" />
+    <Content Include="Content\img\map-image.png" />
+    <Content Include="Content\img\navbar-logo.svg" />
+    <Content Include="Content\img\portfolio\1.jpg" />
+    <Content Include="Content\img\portfolio\2.jpg" />
+    <Content Include="Content\img\portfolio\3.jpg" />
+    <Content Include="Content\img\portfolio\4.jpg" />
+    <Content Include="Content\img\portfolio\5.jpg" />
+    <Content Include="Content\img\portfolio\6.jpg" />
+    <Content Include="Content\img\portfolio\Dungeon.png" />
+    <Content Include="Content\img\portfolio\HTML.png" />
+    <Content Include="Content\img\portfolio\StoreFront.png" />
+    <Content Include="Content\img\team\1.jpg" />
+    <Content Include="Content\img\team\2.jpg" />
+    <Content Include="Content\img\team\3.jpg" />
+    <Content Include="Content\js\scripts.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -177,7 +202,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Scripts\" />
     <Folder Include="_Archive\.git\objects\info\" />
     <Folder Include="_Archive\.git\objects\pack\" />
@@ -188,10 +212,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="configs\ContactSecretKeys.config" />
+    <Content Include="Content\img\Resume 2021 SoftwareDev %284%29.pdf" />
     <None Include="packages.config" />
     <Content Include="_Archive\.gitattributes" />
     <Content Include="_Archive\.git\COMMIT_EDITMSG" />
@@ -259,6 +281,9 @@
     <Content Include="_Archive\.git\objects\fb\22868354b154e007fb7dd51f2576da9843ec9a" />
     <Content Include="_Archive\.git\refs\heads\main" />
     <Content Include="_Archive\.git\refs\remotes\origin\main" />
+    <Content Include="Views\Shared\_OGLayout.cshtml" />
+    <Content Include="Views\Portfolio\Index.cshtml" />
+    <Content Include="Views\Home\ContactAction.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
