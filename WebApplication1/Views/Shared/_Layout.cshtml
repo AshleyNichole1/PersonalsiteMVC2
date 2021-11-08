@@ -33,11 +33,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" @Html.ActionLink("Home", "Index", "Home")</a></li>
-                    <li class="nav-item"><a class="nav-link" @Html.ActionLink("Portfolio", "About", "Home")</a></li>
-                    <li class="nav-item"><a class="nav-link" @Html.ActionLink("About", "About", "Home")</a></li>
-                    <li class="nav-item"><a class="nav-link" @Html.ActionLink("Team", "About", "Home")</a></li>
-                    <li class="nav-item"><a class="nav-link" @Html.ActionLink("Contact", "Contact", "Home")</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -151,7 +151,7 @@
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
 
-                            <img class="img-fluid" src="~/Content/img/portfolio/4.jpg" alt="..." />
+                            <img class="img-fluid" src="~/Content/img/portfolio/API.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Lines</div>
@@ -167,7 +167,7 @@
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
 
-                            <img class="img-fluid" src="~/Content/img/portfolio/5.jpg" alt="..." />
+                            <img class="img-fluid" src="~/Content/img/portfolio/React.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Southwest</div>
@@ -183,7 +183,7 @@
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
 
-                            <img class="img-fluid" src="~/Content/img/portfolio/6.jpg" alt="..." />
+                            <img class="img-fluid" src="~/Content/img/portfolio/SAT.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Window</div>
@@ -271,7 +271,7 @@
                 <div class="col-lg-4">
                     <div class="team-member">
 
-                        <img class="mx-auto rounded-circle" src="~/Content/img/team/1.jpg" alt="..." />
+                        <img class="mx-auto rounded-circle" src="~/Content/img/team/amandaallen (1).jpg" alt="..." />
                         <h4>Parveen Anand</h4>
                         <p class="text-muted">Lead Designer</p>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
@@ -281,8 +281,8 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="team-member">
-
-                        <img class="mx-auto rounded-circle" src="~/Content/img/team/2.jpg" alt="..." />
+                        @*http://c-mitchell.com//*@
+                        <img class="mx-auto rounded-circle" src="~/Content/img/team/calebmitchell (1).jpg" alt="..." />
                         <h4>Diana Petersen</h4>
                         <p class="text-muted">Lead Marketer</p>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
@@ -292,10 +292,60 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="team-member">
-
-                        <img class="mx-auto rounded-circle" src="~/Content/img/team/3.jpg" alt="..." />
+                        @*http://jacobroelofsz.com/*@
+                        <img class="mx-auto rounded-circle" src="~/Content/img/team/jacobroelofsz (1).jpg" alt="..." />
                         <h4>Larry Parker</h4>
                         <p class="text-muted">Lead Developer</p>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        @*http://michaelrussell.net/*@
+                        <img class="mx-auto rounded-circle" src="~/Content/img/team/michaelrussell (1).jpg" alt="..." />
+                        <h4>Parveen Anand</h4>
+                        <p class="text-muted">Lead Designer</p>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        @*http://william-mccarty.com/*@
+                        <img class="mx-auto rounded-circle" src="~/Content/img/team/profilepic.jpg" alt="..." />
+                        <h4>Diana Petersen</h4>
+                        <p class="text-muted">Lead Marketer</p>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        @*http://tylerarowe.com/*@
+
+                        <img class="mx-auto rounded-circle" src="~/Content/img/team/itsme.jpg" alt="..." />
+                        <h4>Larry Parker</h4>
+                        <p class="text-muted">Lead Developer</p>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        @*http://coreymanderson.com/*@
+                        <img class="mx-auto rounded-circle" src="~/Content/img/team/-s4a0xj.jpg" alt="..." />\
+                        <h4>Parveen Anand</h4>
+                        <p class="text-muted">Lead Designer</p>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
@@ -308,29 +358,33 @@
         </div>
     </section>
     <!-- Clients-->
-    <div class="py-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-3 col-sm-6 my-3">
+    @*<div class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-6 my-3">
 
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="~/Content/img/logos/microsoft.svg" alt="..." /></a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="~/Content/img/logos/microsoft.svg" alt="..." /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
 
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="~/Content/img/logos/google.svg" alt="..." /></a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="~/Content/img/logos/google.svg" alt="..." /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
 
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="~/Content/img/logos/facebook.svg" alt="..." /></a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="~/Content/img/logos/facebook.svg" alt="..." /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
 
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="~/Content/img/logos/ibm.svg" alt="..." /></a>
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="~/Content/img/logos/ibm.svg" alt="..." /></a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </div>*@
     <!-- Contact-->
+    <div>
+        @RenderBody()
+    </div>
+
     <section class="page-section" id="contact">
         <div class="container">
             <div class="text-center">
@@ -398,8 +452,8 @@
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-3 text-lg-start">Copyright &copy; Your Website 2021</div>
-                <div class="col-lg-3 text-lg-start">Distributed By <a href="https://themewagon.com/">Themewagon</a></div>
+                <div class="col-lg-3 text-lg-start">Copyright &copy; Ashley Smith @DateTime.Now.Year</div>
+                <div class="col-lg-3 text-lg-start">Distributed By <a href="https://themewagon.com/" target="_blank">Themewagon</a></div>
                 <div class="col-lg-3 my-3 my-lg-0">
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
@@ -532,7 +586,7 @@
                                 <!-- Project details-->
                                 <h2 class="text-uppercase">Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="~/Content/img/portfolio/4.jpg" alt="..." />
+                                <img class="img-fluid d-block mx-auto" src="~/Content/img/portfolio/API.png" alt="..." />
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>
@@ -567,7 +621,7 @@
                                 <!-- Project details-->
                                 <h2 class="text-uppercase">Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="~/Content/img/portfolio/5.jpg" alt="..." />
+                                <img class="img-fluid d-block mx-auto" src="~/Content/img/portfolio/React.png" alt="..." />
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>
@@ -602,7 +656,7 @@
                                 <!-- Project details-->
                                 <h2 class="text-uppercase">Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="~/Content/img/portfolio/6.jpg" alt="..." />
+                                <img class="img-fluid d-block mx-auto" src="~/Content/img/portfolio/SAT.png" alt="..." />
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>
@@ -626,13 +680,7 @@
         </div>
     </div>
 
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
+
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
@@ -640,7 +688,7 @@
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
-  
+
     <script src="~/Content/js/scripts.js"></script>
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <!-- * *                               SB Forms JS                               * *-->

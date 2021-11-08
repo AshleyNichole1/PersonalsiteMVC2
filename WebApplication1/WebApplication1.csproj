@@ -135,6 +135,7 @@
     <Content Include="Content\img\about\2.jpg" />
     <Content Include="Content\img\about\3.jpg" />
     <Content Include="Content\img\about\4.jpg" />
+    <Content Include="Content\img\portfolio\API.png" />
     <Content Include="Content\img\Background %284%29.jpg" />
     <Content Include="Content\img\close-icon.svg" />
     <Content Include="Content\img\header-bg.jpg" />
@@ -153,9 +154,18 @@
     <Content Include="Content\img\portfolio\Dungeon.png" />
     <Content Include="Content\img\portfolio\HTML.png" />
     <Content Include="Content\img\portfolio\StoreFront.png" />
+    <Content Include="Content\img\portfolio\React.png" />
+    <Content Include="Content\img\portfolio\SAT.png" />
+    <Content Include="Content\img\team\-s4a0xj.jpg" />
     <Content Include="Content\img\team\1.jpg" />
     <Content Include="Content\img\team\2.jpg" />
     <Content Include="Content\img\team\3.jpg" />
+    <Content Include="Content\img\team\amandaallen %281%29.jpg" />
+    <Content Include="Content\img\team\calebmitchell %281%29.jpg" />
+    <Content Include="Content\img\team\itsme.jpg" />
+    <Content Include="Content\img\team\jacobroelofsz %281%29.jpg" />
+    <Content Include="Content\img\team\michaelrussell %281%29.jpg" />
+    <Content Include="Content\img\team\profilepic.jpg" />
     <Content Include="Content\js\scripts.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
